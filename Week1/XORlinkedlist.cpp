@@ -110,6 +110,8 @@ int main () {
     }
   
     printList(head);  
+    deleteBeg(head);
+    deleteEnd(head);   
   
     return 0;  
 }  
